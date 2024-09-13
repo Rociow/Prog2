@@ -1,0 +1,13 @@
+CELULAR 
+
+Contacto (nombre,apellido,fecha nac, tel, direc, email)
+
+-METODOS
+
+muestra contactos con apellido, nombre, edad y num de telefono
+
+muestra la caracteristica (ciudad) del num
+
+muestra la totalidad de contactos
+	el promedio de edad
+

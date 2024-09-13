@@ -1,0 +1,24 @@
+
+
+CLASE SERIE
+atributos = titulo, descripción, creador, genero, temp, (inicializo)
+
+constructor = titulo, descripcion, creador, genero, temp [0] (seteo valores default)
+
+métodos = get/set
+	set TEMPORADA = 
+
+CLASE EPISODIO
+atributos = titulo, descripción, bolean ya visto, calificación
+
+constructores = titulo, descripción, bolean ya visto, calificación (seteo valores default)
+constructores = titulo, descripción, bolean ya visto, calificación (seteo valores cuando ingresen valores)
+
+métodos = get/set
+
+CLASE TEMPORADA
+atributos = array episodios
+
+constructor= episodios = new ep [0] /inicio un array en 0
+
+métodos = setEpisodios

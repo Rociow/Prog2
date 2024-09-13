@@ -1,0 +1,16 @@
+STATIC
+
+-en atributos: es un atributo de toda la clase, sera la misma variable para todos los objetos.
+son variable asociadas con la clase y no con las instancias particulares
+para acceder a ellos no es necesario instanciar la clase, pueden ser accedidas usando el nombre de la clase, son GLOBALES para la clase
+-en métodos: metodo que puede ser invocado por mas que no existan instancias/objetos
+es posible invocar un metodo static desde la propia clase que lo define, sin ningun objeto
+
+FINAL
+define constantes
+-en atributos: valor que nunca cambia
+ final int X = 2; solo se conoce en la instancia
+ static int X = 2; solo se conoce dentro de la clase
+ public static int X=2; todos la conocen.
+-en clase: clase que no puede ser extendida(no se puede heredar de ella)
+-en un metodo: metodo que no puede ser redefinido
